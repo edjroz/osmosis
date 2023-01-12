@@ -10,9 +10,9 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	transfertypes "github.com/cosmos/ibc-go/v4/modules/apps/transfer/types"
-	clienttypes "github.com/cosmos/ibc-go/v4/modules/core/02-client/types"
-	ibctesting "github.com/cosmos/ibc-go/v4/testing"
+	transfertypes "github.com/cosmos/ibc-go/v5/modules/apps/transfer/types"
+	clienttypes "github.com/cosmos/ibc-go/v5/modules/core/02-client/types"
+	ibctesting "github.com/cosmos/ibc-go/v5/testing"
 	"github.com/stretchr/testify/suite"
 
 	"github.com/osmosis-labs/osmosis/v14/app/apptesting"
